@@ -9,14 +9,14 @@ Gem::Specification.new do |spec|
 
   spec.summary = %q(itamae plugin resource openbsd_package)
   spec.description = "(m)itamae resource plugin for installing/removing packages on OpenBSD"
-  spec.homepage = "https://pzskc383.net/code/obsd-mitamae"
+  spec.homepage = "https://pzskc383.net/code/itamae-plugin-resource-openbsd_package/tree/README.md"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["rubygems_mfa_required"] = "true"
-  # spec.metadata["source_code_uri"] =
-  # spec.metadata["changelog_uri"] =
+  spec.metadata["source_code_uri"] = "https://pzskc383.net/code/itamae-plugin-resource-openbsd_package"
+  spec.metadata["changelog_uri"] = "https://pzskc383.net/code/itamae-plugin-resource-openbsd_package/log/"
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})

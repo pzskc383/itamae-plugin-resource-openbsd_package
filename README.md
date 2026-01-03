@@ -13,3 +13,9 @@ end
 ```
 
 Also, because current (as of early 2026) specinfra simply doesn't implement delete action for packages on OpenBSD.
+
+
+## Status
+
+- MItamae version is actually tested and used. Itamae one is written out of boredom.
+- Zero tests at the moment
